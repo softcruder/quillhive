@@ -1,7 +1,7 @@
 import './globals.css'
-import { Baskervville } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const inter = Baskervville({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
