@@ -1,8 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Baskervville } from 'next/font/google'
 import Sidebar from './components/Sidebar'
 
-const inter = Inter({ subsets: ['latin'] })
+const baskervville = Baskervville({
+  subsets: ['latin'],
+  weight: '400'
+})
 
 export const metadata = {
   title: 'Quillhive',
@@ -17,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Sidebar  logo='https://google.com'/>
-      <body className={inter.className}>{children}</body>
+      <body className={baskervville.className}>{children}</body>
     </html>
   )
 }

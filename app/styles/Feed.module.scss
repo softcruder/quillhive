@@ -1,0 +1,93 @@
+.feed {
+    margin: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .authorInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePicture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .authorText {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .displayName {
+    font-weight: bold;
+  }
+  
+  .bio {
+    color: #777777;
+  }
+  
+  .date {
+    color: #777777;
+  }
+  
+  .body {
+    display: flex;
+  }
+  
+  .mediaContainer {
+    width: 40%;
+    padding: 16px;
+  }
+  
+  .media {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .text {
+    line-height: 1.4;
+    color: #777777;
+  }
+  
+  .footer {
+    padding: 16px;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .socialFeatures {
+    display: flex;
+    align-items: center;
+  }
+  
+  .socialIcon {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .stat {
+    margin-left: 4px;
+    color: #777777;
+  }
+  
