@@ -1,6 +1,7 @@
 import './globals.css'
 import { Baskervville } from 'next/font/google'
 import Sidebar from './components/Sidebar'
+import AppHeader from './components/AppHeader'
 
 const baskervville = Baskervville({
   subsets: ['latin'],
@@ -19,6 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <AppHeader logo='/public/vercel.svg' pathToProfilePicture='/public/next.svg'/>
       <Sidebar  logo='https://google.com'/>
       <body className={baskervville.className}>{children}</body>
     </html>
